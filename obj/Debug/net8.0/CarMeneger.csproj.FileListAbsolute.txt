@@ -1,0 +1,14 @@
+D:\project\CarMeneger\bin\Debug\net8.0\CarMeneger.exe
+D:\project\CarMeneger\bin\Debug\net8.0\CarMeneger.deps.json
+D:\project\CarMeneger\bin\Debug\net8.0\CarMeneger.runtimeconfig.json
+D:\project\CarMeneger\bin\Debug\net8.0\CarMeneger.dll
+D:\project\CarMeneger\bin\Debug\net8.0\CarMeneger.pdb
+D:\project\CarMeneger\obj\Debug\net8.0\CarMeneger.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\CarMeneger\obj\Debug\net8.0\CarMeneger.AssemblyInfoInputs.cache
+D:\project\CarMeneger\obj\Debug\net8.0\CarMeneger.AssemblyInfo.cs
+D:\project\CarMeneger\obj\Debug\net8.0\CarMeneger.csproj.CoreCompileInputs.cache
+D:\project\CarMeneger\obj\Debug\net8.0\CarMeneger.dll
+D:\project\CarMeneger\obj\Debug\net8.0\refint\CarMeneger.dll
+D:\project\CarMeneger\obj\Debug\net8.0\CarMeneger.pdb
+D:\project\CarMeneger\obj\Debug\net8.0\CarMeneger.genruntimeconfig.cache
+D:\project\CarMeneger\obj\Debug\net8.0\ref\CarMeneger.dll

@@ -1,0 +1,9 @@
+[
+  {
+    "CarId": 1,
+    "Id": 1,
+    "Discription": "Замена моторного масла",
+    "MileageToInstallation": 129200,
+    "MileageLife": 8000
+  }
+]
