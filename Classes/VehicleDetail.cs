@@ -1,25 +1,27 @@
 ﻿namespace CarMeneger
 {
-    class Work
+    class VehicleDetail
     {
-        public int CarId { get; private set; }
         public int Id { get; private set; }
+        public int TypeWorkId { get; private set; }
+        public int CarId { get; private set; }
         public string Discription { get; private set; }
         public int MileageToInstallation { get; private set; }
-        public int MileageLife { get; private set; }
+        public int MileageLife { get; private set; }  // перенести в тип работ?
         public int ReplacementMileage { get; private set; }
 
-        public Work(int carId, int id, string discription, int mileageToInstallation, int mileageLife)
+        public VehicleDetail(int id, int typeWorkId, int carId, string discription, int mileageToInstallation, int mileageLife)
         {
-            CarId = carId;
             Id = id;
+            TypeWorkId = typeWorkId;
+            CarId = carId;
             Discription = discription;
             MileageToInstallation = mileageToInstallation;
             MileageLife = mileageLife;
             ReplacementMileage = mileageToInstallation + mileageLife;
         }
 
-        public void ShowWorks()
+        public void ShowWork()
         {
             Console.WriteLine($"{Discription} - пробег на момент замены: {MileageToInstallation}, планируемая замена при {ReplacementMileage} км. пробега");
         }

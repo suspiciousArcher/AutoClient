@@ -2,10 +2,10 @@
 {
     class FileController
     {
-        static private string _fileCarsPath = Path.Combine("..", "..", "..", "Data", "cars.json");
-        static private string _fileWorksPath = Path.Combine("..", "..", "..", "Data", "works.json");
+        private static string _fileCarsPath = Path.Combine("..", "..", "..", "Data", "cars.json");
+        private static string _fileWorksPath = Path.Combine("..", "..", "..", "Data", "works.json");
 
-        static public string ReadFile(string name)
+        public static string ReadFile(string name)
         {
             string json;
             switch (name)
@@ -22,7 +22,7 @@
             return json;
         }
 
-        static public void ShowDirectory()
+        public static void ShowDirectory()
         {
             Console.WriteLine(Directory.GetCurrentDirectory());
         }

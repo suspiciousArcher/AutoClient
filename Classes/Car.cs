@@ -7,7 +7,6 @@
         public string Model { get; private set; }
         public int ReleaseDate { get; private set; }
         public int Mileage { get; private set; }
-        public List<Work> details = new List<Work>();
 
         public Car(int id, string stamp, string model, int releaseDate, int mileage)
         {
